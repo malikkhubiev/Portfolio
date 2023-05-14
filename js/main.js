@@ -35,7 +35,7 @@ let slides = document.getElementsByClassName('section-myProjects-container-slide
 let sliderCounter = 0;
 $('#sliderArrow').on('click', ()=>{
     sliderCounter++;
-    if(sliderCounter>4) sliderCounter = 0;
+    if(sliderCounter>3) sliderCounter = 0;
     for(let i = 0; i<slides.length; i++){
         slides[i].style.display = 'none';
     }
